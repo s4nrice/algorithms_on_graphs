@@ -9,6 +9,8 @@ namespace algorithms_on_graphs
 			public int matrixLength;
 			private List<char> dictionary = new List<char>();
 
+			public String testingGit = "Тестируем коллаборации в гите";
+
 			public Graph(int matrixSize, List<char> dictionary)
 			{
 				 matrixLength = matrixSize + 1;
